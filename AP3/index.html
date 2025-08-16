@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌐 Responsive & Interactive Page</h1>
+  </header>
+
+  <!-- Image Carousel -->
+  <section class="carousel-section">
+    <h2>🖼 Image Carousel</h2>
+    <div class="carousel">
+      <img id="carouselImage" src="https://picsum.photos/id/237/500/300" alt="carousel">
+      <div class="buttons">
+        <button onclick="prevImage()">⬅ Prev</button>
+        <button onclick="nextImage()">Next ➡</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Joke API Section -->
+  <section class="joke-section">
+    <h2>😂 Get a Random Joke</h2>
+    <button onclick="fetchJoke()">Tell me a joke!</button>
+    <p id="jokeDisplay">Click the button to load a joke.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Advanced CSS & JS Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
